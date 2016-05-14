@@ -1,0 +1,2 @@
+module PickleHelper
+end
