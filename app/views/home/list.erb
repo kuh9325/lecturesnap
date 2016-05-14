@@ -1,0 +1,8 @@
+<h1>여기는 게시판에 저장된 지난 글입니다.</h1>
+<h2><% @every_post.each do |p|%></h2>
+제목: <%= p.title %> <br>
+내용: <%= p.content %>
+시간: <%= p.created_at %>
+<hr>
+<% end %>
+<h1><a href="/">게시판 글쓰기 화면으로</a></h1>
